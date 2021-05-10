@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentConnector">
+
+    <TextView
+        android:id="@+id/titres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/mail"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="69dp"
+        android:text="@string/connexion"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/mail"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        android:layout_above="@id/mot_de_passe"
+        android:textSize="15sp"
+        android:autofillHints="@string/mail" />
+
+    <EditText
+        android:id="@+id/mot_de_passe"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/mot_de_passe"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:inputType="textPassword"
+        android:layout_centerInParent="true"
+        android:textSize="15sp"
+        android:autofillHints="@string/mot_de_passe" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mot_de_passe"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/connexion"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

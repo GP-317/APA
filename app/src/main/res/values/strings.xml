@@ -10,4 +10,7 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="action_sign_up">Sign up</string>
+    <string name="connexion">Connexion</string>
+    <string name="mail">Adresse e-mail</string>
+    <string name="mot_de_passe">Mot de passe</string>
 </resources>

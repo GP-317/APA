@@ -51,19 +51,20 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="122dp">
+            android:layout_height="122dp"
+            tools:spanCount="5">
 
         </androidx.recyclerview.widget.RecyclerView>
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/add_apa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5px"
             android:text="Ajouter activité" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/validate_apa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5px"
