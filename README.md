@@ -2,6 +2,6 @@
 
 University assignment.
 
-CAILLAULT Mallory
-FLORENT Thomas
-PRIVARD Geoffrey
+- CAILLAULT Mallory
+- FLORENT Thomas
+- PRIVARD Geoffrey
